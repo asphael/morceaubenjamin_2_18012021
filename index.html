@@ -29,43 +29,101 @@
                 <td>
                     <form method="post" action="traitement.php">
                         <p>
-                            <input type="text">
+                            <input type="search">
+                            <input type="button" value="Rechercher" id="search">
                         </p>
                     </form>
-
                 </td>
+              
+            </tr>
+        <table id="filtres">
+            <tr>
                 <td>
-                    <button id="bouton_recherche">
-                    Rechercher
+                    <button>
+                    <i class="fas fa-money-bill-wave">Economique</i>
                     </button>
                 </td>
-            </tr>
-        <div id="filtres">
-            <button>
-                <i class="fas fa-money-bill-wave">Economique</i>
-            </button>
-            <button>            
-                <i class="fas fa-child">Familial</i>
-            </button>
-            <button>
-                <i class="fas fa-heart">Romantique</i></td>
-            </button>
-            <button>    
-                <i class="fas fa-dog"></i>Animaux autorisés
-            </button>    
-        </div>
+                <td>
+                    <button>            
+                    <i class="fas fa-child">Familial</i>
+                    </button>
+                </td>
+                <td>    
+                    <button>
+                    <i class="fas fa-heart">Romantique</i></td>
+                    </button>
+                </td>
+                <td>
+                    <button>    
+                    <i class="fas fa-dog">Animaux autorisés</i>
+                    </button>
+                </td>    
+        </table>
         <p><i class="fas fa-info-circle">Plus de 500 logements sont disponibles dans cette ville.</i></p>
+        </tr>
     </header>
-    <article>
-        
+    <article id="hébergements">
+        <h2>Hébergements à Marseille</h2>
+        <div id="images_hotel">
+            <p>
+                <img src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="">
+                <img src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="">
+                <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="">
+                <img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="">
+                <img src="images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="">
+                <img src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="">
+            </p>
+
+        </div>
+        </article>
+    <aside>
+        <h2>Les plus populaires</h2>
+        <div id="images_populaires">
+            <p>
+                <img src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="">
+                <img src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="">
+                <img src="images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="">
+            </p>    
+        </div>
+    </aside>
+    <article id="activités">
+        <h2>Activités à Marseille</h2>
+        <div id="images_activités">
+            <p>
+                <img src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="">
+                <img src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="">
+                <img src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="">
+                <img src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="">
+                <img src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="">
+                <img src="images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="">
+            </p>
+        </div>
+
     </article>
-
-    
-
-
-
-    
-
+    <footer>
+        <div id="descriptif">
+        <h3>A propos</h3>
+            <ul>
+                <li><a href="#">Fonctionnement du site</a></li>
+                <li><a href="#">Conditions générales de vente</a></li>
+                <li><a href="#">Données et confidentialité</a></li>
+            </ul>
+        </div>
+        <div id="qualité_souscription">    
+        <h3>Nos hébergements</h3>
+            <ul>
+                <li><a href="#">Charte qualité</a></li>
+                <li><a href="#">Soumettre votre Hôtel</a></li>
+            </ul>
+        </div>
+        <div id="assistance">    
+        <h3>Assistance</h3>
+            <ul>
+                <li><a href="#">Centre d'aide</a></li>
+                <li><a href="#">Nous contacter</a></li>
+            </ul>
+        </div>    
+    </footer>
 </div>
 </body>
 </html>

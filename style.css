@@ -11,12 +11,73 @@
  body 
 {
     font-family: 'ralewaythin' ;
-
+    margin: 100px;
+    text-align: justify
 
 }
-button
+header
+
+#logo
 {
-    font-family: 'ralewaythin';
-    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin-bottom: 150px;
+}
+#titre_page
+{
+    display: flex;
+    flex-direction: column;
+}
+div h1
+{
+    font-size: 1.5em;
+}
+div h2 
+{
+    font-size: 1.2em;
+}
+nav ul
+{
+    display: flex;
+    list-style-type: none;
+    margin-left: 900px;
+    margin-top: 15px;
+}
+nav li
+{
+    margin-right: 20px;
+
+}
+nav a
+{
+    font-size: 1em;
+    color:black;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+nav a:hover
+{
+    color: blue;
+    border-bottom: 3px solid blue;
+}
+#filtres 
+{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+
+}
+#bt_1
+{
+    border: 3px solid silver;
+    border-radius: 8px;
+    margin: 15px;
     
+}
+#bt_2
+{
+    border: 3px solid silver;
+    border-radius: 8px;
+    margin: 15px;
 }

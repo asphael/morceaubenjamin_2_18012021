@@ -10,11 +10,6 @@
 <body>
 <div id="bloc_page">
     <header>
-        <div id="titre_page">
-            <img src="images/logo/Reservia.svg" alt="">
-            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-            <p>En plein centre ville ou pleine nature</p>
-        </div>
         <nav>
             <ul>
                 <li><a href="#">Hébergements</a></li>
@@ -22,7 +17,15 @@
                 <li><a href="#">S'inscrire</a></li>
             </ul>
         </nav>
+        <div id="titre_page">
+            <div id="logo">
+            <img src="images/logo/Reservia.svg" alt="">
+            </div>
+            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+            <p>En plein centre ville ou pleine nature</p>
+        </div>
        
+     
         <table id="recherche">
             <tr>
                 <td><i class="fas fa-map-marker-alt"></i></td>
@@ -30,35 +33,36 @@
                     <form method="post" action="traitement.php">
                         <p>
                             <input type="search">
-                            <input type="button" value="Rechercher" id="search">
+                            
                         </p>
+
                     </form>
                 </td>
               
             </tr>
-        <table id="filtres">
-            <tr>
-                <td>
-                    <button>
+        <div id="filtres">
+           
+                
+                    <p id="bt_1">
                     <i class="fas fa-money-bill-wave"></i>Economique
-                    </button>
-                </td>
-                <td>
-                    <button>            
+                    </p>
+                
+                
+                     <p id="bt_2">                             
                     <i class="fas fa-child"></i>Familial
-                    </button>
-                </td>
-                <td>    
-                    <button>
+                    </p>
+                
+                    
+                    <p id="bt_3">
                     <i class="fas fa-heart"></i>Romantique
-                    </button>
-                </td>
-                <td>
-                    <button>    
+                    </p>
+                
+                
+                    <p id="bt_4">   
                     <i class="fas fa-dog"></i>Animaux autorisés
-                    </button>
-                </td>    
-        </table>
+                    </p>
+                    
+        </div>
         <p><i class="fas fa-info-circle"></i>Plus de 500 logements sont disponibles dans cette ville.</p>
         </tr>
     </header>

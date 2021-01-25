@@ -1,0 +1,22 @@
+@font-face 
+{
+    font-family: 'ralewaythin';
+    src: url('polices/raleway-variablefont_wght-webfont.woff2') format('woff2'),
+         url('polices/raleway-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+ body 
+{
+    font-family: 'ralewaythin' ;
+
+
+}
+button
+{
+    font-family: 'ralewaythin';
+    border-radius: 5px;
+    
+}

@@ -20,9 +20,8 @@ header
 #logo
 {
     display: flex;
-    flex-direction: row;
-    align-items: baseline;
-    margin-bottom: 150px;
+    margin-bottom: 60px;
+    
 }
 #titre_page
 {
@@ -36,6 +35,11 @@ div h1
 div h2 
 {
     font-size: 1.2em;
+}
+nav
+{
+    display: flex;
+    margin-left: 250px;
 }
 nav ul
 {
@@ -59,38 +63,103 @@ nav a
 nav a:hover
 {
     color: #0065fc;
-    border-bottom: 3px solid#0065fc;
+    border-top: 3px solid#0065fc;
 }
-#filtres 
+
+.src
 {
     display: flex;
-    flex-direction: row;
-    text-align: center;
+    border: 1px solid black;
+}
+.gps
+{
+    padding: 10px;
+    margin-top: 10px;
+}
+.bt_src
+{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 4px;
+    padding-right: 3px;
+    border: 3px solid #0065fc;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    background-color: #0065fc;
+}
+.formulmaire
+{
+   padding: 0;
+   margin: 0;
+}
+#title
+{
+    margin-top: 5px;
+    color: white;
+}
 
+
+
+
+
+#filtres 
+{
+   display: flex;
+   flex-wrap: wrap;
+    
 }
 #icone
 {
     display:flex;
     flex-direction: row;
-    padding-right: 15px;
+    background-color: #76acfcb7;
+    border:1px solid #9dc4ff;
+    border-radius: 16px;
+    color: #0065fc;
+    padding: 6px;
 
 }
+
 #bt
 {
-    border: 3px solid silver;
-    border-radius: 8px;
-    margin: 15px;
+    display: flex;
+    border: 1px solid silver;
+    border-radius: 17px;
+    margin: 16px;
+    font-size: medium;
     
+    
+}
+.bt_name
+{
+    padding: 0;
+    margin-top: 7px;
+    margin-bottom: 5px;
+    margin-right: 8px;
+    margin-left: 8px;
+    color: #0065fc;
 }
 
 
 article
+h3
+{
+    margin-left: 8px;
+}
+p
+{
+    margin-left: 8px;
+}
+
 .images_hotel 
 {
     display: flex;
     flex-wrap: wrap;
-    margin: 5px;
-    padding: 5px;
+    margin-right: 110px;
+    border: #F2F2F2 1px solid;
+    border-radius: 15px;
+    background-color: #F2F2F2;
+    
 }
 
 .images_hotel > article 
@@ -98,13 +167,14 @@ article
     box-shadow: 1px 1px 3px #F2F2F2 ;
     border-radius: 16px;
     background-color:white;
-    margin: 1px;
-    padding: 1px;
+    margin: 20px;
+    padding: 0px;
     font-size: small;
+
 }
 .img 
 {
-   width: 200px;
+   width: 280px;
    height: 120px; 
    background-size: cover;
    background-repeat: no-repeat;
@@ -118,6 +188,7 @@ article
     list-style-type: none;
     display: flex;
     padding-left: 0;
+    margin-left: 8px;
 }
 
 .img-1
@@ -144,3 +215,55 @@ article
 {
     background-image: url('images/hebergements/4_small/amina.jpg');
 }
+.blue-star
+{
+    color: #0065fc;
+}
+.silver-star
+{
+    color: white;
+}
+section
+{
+    display: flex;
+    
+}
+aside
+{
+    background-color:#F2F2F2;
+    border-radius: 16px;
+    padding-left: 50px;
+}
+.pop
+{
+    width: 350px;
+    height: 10px; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+ 
+ }
+ .populaires ul
+ {
+    list-style-type: none;
+    display: flex;
+    padding-left: 0;
+    margin-left: 8px;
+ }   
+ .populaires >article
+ {
+    box-shadow: 1px 1px 3px #F2F2F2 ;
+    border-radius: 16px;
+    background-color:white;
+    margin: 10px;
+    padding: 3px;
+    margin-left: 0px;
+    font-size: small;
+    
+ }
+ .pop-1
+ {
+     background-image: url('images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg');
+ }

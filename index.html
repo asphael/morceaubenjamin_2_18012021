@@ -26,48 +26,49 @@
         </div>
        
      
-        <table id="recherche">
-            <tr>
-                <td><i class="fas fa-map-marker-alt"></i></td>
-                <td>
+            <div class="src">
+                <div class="gps"><i class="fas fa-map-marker-alt"></i></div>
+                <div class="formulaire">                
                     <form method="post" action="traitement.php">
                         <p>
-                            <input type="search">
-                            
+                            <input type="text" size="30px">                          
                         </p>
-
                     </form>
-                </td>
-              
-            </tr>
-        </table>    
+                </div>
+                <div class="bt_src"><p id="title"><bold>Rechercher</bold></p></div>            
+            </div>
+           
         <div id="filtres">
            
                 
                     <div id="bt">
                      <div id="icone"><i class="fas fa-money-bill-wave"></i></div>
-                     <div>Economique</div>
+                     <p class="bt_name">Economique</p>
                     </div>
                 
                 
                      <div id="bt">                             
-                    <i class="fas fa-child"></i>Familial
+                        <div id="icone"><i class="fas fa-child"></i></div>
+                        <p class="bt_name">Familial</p>
                      </div>
                 
                     
                     <div id="bt">
-                    <i class="fas fa-heart"></i>Romantique
+                        <div id="icone"><i class="fas fa-heart"></i></div>
+                        <p class="bt_name">Romantique</p>
                     </div>
                 
                 
                     <div id="bt">   
-                    <i class="fas fa-dog"></i>Animaux autorisés
+                        <div id="icone"><i class="fas fa-dog"></i></div>
+                        <p class="bt_name">Animaux autorisés</p>
                     </div>
                     
         </div>
         <p><i class="fas fa-info-circle"></i>Plus de 500 logements sont disponibles dans cette ville.</p>
         </tr>
     </header>
+<section>
     <article>
         <h2>Hébergements à Marseille</h2>
         <div class='images_hotel'>
@@ -202,17 +203,83 @@
                          <i class='fas fa-star blue-star'></i>
                      </li>
                  </ul>
-             </article>
-         
-                
+             </article>                 
         </div>
     </article>
     <aside>
         <h2>Les plus populaires</h2>
-        <div id="images_populaires">
-          
+       <div class="populaires">
+        <article>
+            <div class='pop pop-1'></div>
+             <h3>Hôtel le soleil du matin</h3>
+             <p>nuit a partir de 128€</p>
+             <ul>
+                 <li>
+                     <i class='fas fa-star blue-star'></i>
+                 </li>
+                 <li>
+                     <i class='fas fa-star blue-star'></i>
+                 </li>
+                 <li>
+                     <i class='fas fa-star blue-star'></i>
+                 </li>
+                 <li>
+                     <i class='fas fa-star blue-star'></i>
+                 </li>
+                 <li>
+                     <i class='fas fa-star blue-star'></i>
+                 </li>
+             </ul>
+         </article>
+         <article>
+            <div class='pop pop-2'></div>
+             <h3>Au coeur de l'eau Chambres d'hôtes</h3>
+             <p>nuit a partir de 71€</p>
+             <ul>
+                 <li>
+                     <i class='fas fa-star blue-star'></i>
+                 </li>
+                 <li>
+                     <i class='fas fa-star blue-star'></i>
+                 </li>
+                 <li>
+                     <i class='fas fa-star blue-star'></i>
+                 </li>
+                 <li>
+                     <i class='fas fa-star blue-star'></i>
+                 </li>
+                 <li>
+                     <i class='fas fa-star blue-star'></i>
+                 </li>
+             </ul>
+         </article>
+         <article>
+            <div class='pop pop-3'></div>
+             <h3>Hôtel tout bleu et blanc</h3>
+             <p>nuit a partir de 68€</p>
+             <ul>
+                 <li>
+                     <i class='fas fa-star blue-star'></i>
+                 </li>
+                 <li>
+                     <i class='fas fa-star blue-star'></i>
+                 </li>
+                 <li>
+                     <i class='fas fa-star blue-star'></i>
+                 </li>
+                 <li>
+                     <i class='fas fa-star blue-star'></i>
+                 </li>
+                 <li>
+                     <i class='fas fa-star blue-star'></i>
+                 </li>
+             </ul>
+         </article>
+       </div>
+        
     </aside>
-    <article id="activités">
+</section>
+        <article id="activités">
         <h2>Activités à Marseille</h2>
       
 

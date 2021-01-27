@@ -58,8 +58,8 @@ nav a
 }
 nav a:hover
 {
-    color: blue;
-    border-bottom: 3px solid blue;
+    color: #0065fc;
+    border-bottom: 3px solid#0065fc;
 }
 #filtres 
 {
@@ -68,16 +68,79 @@ nav a:hover
     text-align: center;
 
 }
-#bt_1
+#icone
+{
+    display:flex;
+    flex-direction: row;
+    padding-right: 15px;
+
+}
+#bt
 {
     border: 3px solid silver;
     border-radius: 8px;
     margin: 15px;
     
 }
-#bt_2
+
+
+article
+.images_hotel 
 {
-    border: 3px solid silver;
-    border-radius: 8px;
-    margin: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+    padding: 5px;
+}
+
+.images_hotel > article 
+{
+    box-shadow: 1px 1px 3px #F2F2F2 ;
+    border-radius: 16px;
+    background-color:white;
+    margin: 1px;
+    padding: 1px;
+    font-size: small;
+}
+.img 
+{
+   width: 200px;
+   height: 120px; 
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   border-top-left-radius: 16px;
+   border-top-right-radius: 16px;
+
+}
+.images_hotel ul
+{
+    list-style-type: none;
+    display: flex;
+    padding-left: 0;
+}
+
+.img-1
+{
+    background-image: url('images/hebergements/4_small/la_cannebière.jpg');
+}
+.img-2
+{
+    background-image: url('images/hebergements/4_small/le_port.jpg');
+}
+.img-3
+{
+    background-image: url('images/hebergements/4_small/les_mouettes.jpg');
+}
+.img-4
+{
+    background-image: url('images/hebergements/4_small/la_mer.jpg');
+}
+.img-5
+{
+    background-image: url('images/hebergements/4_small/le_panier.jpg');
+}
+.img-6
+{
+    background-image: url('images/hebergements/4_small/amina.jpg');
 }

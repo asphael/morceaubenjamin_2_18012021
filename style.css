@@ -1,4 +1,269 @@
-header
+@font-face 
 {
+    font-family: 'ralewaythin';
+    src: url('polices/raleway-variablefont_wght-webfont.woff2') format('woff2'),
+         url('polices/raleway-variablefont_wght-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+ body 
+{
+    font-family: 'ralewaythin' ;
+    margin: 100px;
+    text-align: justify
+
+}
+header
+
+#logo
+{
+    display: flex;
+    margin-bottom: 60px;
     
 }
+#titre_page
+{
+    display: flex;
+    flex-direction: column;
+}
+div h1
+{
+    font-size: 1.5em;
+}
+div h2 
+{
+    font-size: 1.2em;
+}
+nav
+{
+    display: flex;
+    margin-left: 250px;
+}
+nav ul
+{
+    display: flex;
+    list-style-type: none;
+    margin-left: 900px;
+    margin-top: 15px;
+}
+nav li
+{
+    margin-right: 20px;
+
+}
+nav a
+{
+    font-size: 1em;
+    color:black;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+nav a:hover
+{
+    color: #0065fc;
+    border-top: 3px solid#0065fc;
+}
+
+.src
+{
+    display: flex;
+    border: 1px solid black;
+}
+.gps
+{
+    padding: 10px;
+    margin-top: 10px;
+}
+.bt_src
+{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 4px;
+    padding-right: 3px;
+    border: 3px solid #0065fc;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    background-color: #0065fc;
+}
+.formulmaire
+{
+   padding: 0;
+   margin: 0;
+}
+#title
+{
+    margin-top: 5px;
+    color: white;
+}
+
+
+
+
+
+#filtres 
+{
+   display: flex;
+   flex-wrap: wrap;
+    
+}
+#icone
+{
+    display:flex;
+    flex-direction: row;
+    background-color: #76acfcb7;
+    border:1px solid #9dc4ff;
+    border-radius: 16px;
+    color: #0065fc;
+    padding: 6px;
+
+}
+
+#bt
+{
+    display: flex;
+    border: 1px solid silver;
+    border-radius: 17px;
+    margin: 16px;
+    font-size: medium;
+    
+    
+}
+.bt_name
+{
+    padding: 0;
+    margin-top: 7px;
+    margin-bottom: 5px;
+    margin-right: 8px;
+    margin-left: 8px;
+    color: #0065fc;
+}
+
+
+article
+h3
+{
+    margin-left: 8px;
+}
+p
+{
+    margin-left: 8px;
+}
+
+.images_hotel 
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 110px;
+    border: #F2F2F2 1px solid;
+    border-radius: 15px;
+    background-color: #F2F2F2;
+    
+}
+
+.images_hotel > article 
+{
+    box-shadow: 1px 1px 3px #F2F2F2 ;
+    border-radius: 16px;
+    background-color:white;
+    margin: 20px;
+    padding: 0px;
+    font-size: small;
+
+}
+.img 
+{
+   width: 280px;
+   height: 120px; 
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   border-top-left-radius: 16px;
+   border-top-right-radius: 16px;
+
+}
+.images_hotel ul
+{
+    list-style-type: none;
+    display: flex;
+    padding-left: 0;
+    margin-left: 8px;
+}
+
+.img-1
+{
+    background-image: url('images/hebergements/4_small/la_cannebière.jpg');
+}
+.img-2
+{
+    background-image: url('images/hebergements/4_small/le_port.jpg');
+}
+.img-3
+{
+    background-image: url('images/hebergements/4_small/les_mouettes.jpg');
+}
+.img-4
+{
+    background-image: url('images/hebergements/4_small/la_mer.jpg');
+}
+.img-5
+{
+    background-image: url('images/hebergements/4_small/le_panier.jpg');
+}
+.img-6
+{
+    background-image: url('images/hebergements/4_small/amina.jpg');
+}
+.blue-star
+{
+    color: #0065fc;
+}
+.silver-star
+{
+    color: white;
+}
+section
+{
+    display: flex;
+    
+}
+aside
+{
+    background-color:#F2F2F2;
+    border-radius: 16px;
+    padding-left: 50px;
+}
+.pop
+{
+    width: 350px;
+    height: 10px; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+ 
+ }
+ .populaires ul
+ {
+    list-style-type: none;
+    display: flex;
+    padding-left: 0;
+    margin-left: 8px;
+ }   
+ .populaires >article
+ {
+    box-shadow: 1px 1px 3px #F2F2F2 ;
+    border-radius: 16px;
+    background-color:white;
+    margin: 10px;
+    padding: 3px;
+    margin-left: 0px;
+    font-size: small;
+    
+ }
+ .pop-1
+ {
+     background-image: url('images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg');
+ }

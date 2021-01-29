@@ -105,8 +105,7 @@ nav a:hover
 #filtres 
 {
    display: flex;
-   flex-wrap: wrap;
-    
+   flex-wrap: wrap;    
 }
 #icone
 {
@@ -117,7 +116,6 @@ nav a:hover
     border-radius: 16px;
     color: #0065fc;
     padding: 6px;
-
 }
 
 #bt
@@ -126,9 +124,7 @@ nav a:hover
     border: 1px solid silver;
     border-radius: 17px;
     margin: 16px;
-    font-size: medium;
-    
-    
+    font-size: medium;    
 }
 .bt_name
 {
@@ -145,8 +141,7 @@ nav a:hover
 {
     background-color: #F2F2F2;
     border-radius: 16px;
-    margin-right: 100px;
-    
+    margin-right: 100px;    
 }
 h2
 {
@@ -325,10 +320,7 @@ aside
  
 
 
-.act
-{
-  
-}
+
 .act-2
 {
     width: 250px;

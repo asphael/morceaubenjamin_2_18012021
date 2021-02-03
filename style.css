@@ -63,7 +63,9 @@ nav a
 nav a:hover
 {
     color: #0065fc;
+    margin-top: 15px;
     border-top: 3px solid#0065fc;
+    
 }
 
 
@@ -113,6 +115,41 @@ nav a:hover
 .bt:hover
 {
     background-color: #76acfc77;
+}
+
+.src 
+{
+    display: flex;
+}
+.champ
+{
+    width: 250px;
+    height: 34px;
+    border:1px solid #F2F2F2;
+    margin-top: 2px;
+}
+.recherche
+{
+    background-color: #0065fc;
+    color: white;
+    height: 38px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    font-family: 'ralewaythin' ;
+    box-shadow:none;
+    border: #F2F2F2;
+    margin: 0mm;
+}
+.gps
+{
+    font-size: 1.2em;
+    text-align:center ;
+    padding: 8px;
+    color: #0065fc;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius:6px;
+    width: 30px;
+    background-color: #F2F2F2;
 }
 
 
@@ -270,10 +307,7 @@ aside
     width: 370px;
     height: 100px;
  }
- .populaires :hover
- {
-    background-color: #76acfc77;
- }
+ 
  .populaires p
  {
    margin-left: 160px;
@@ -316,9 +350,9 @@ aside
     margin: 20px;
     padding: 0px;
     font-size: small;
-    border:1px solid blue;
     width: 250px;
     height: 400px;
+
 }
 .moyen
 {
@@ -328,7 +362,6 @@ aside
     margin: 20px;
     padding: 0px;
     font-size: small;
-    border:1px solid blue;
     width: 350px;
     height: 200px;
     
@@ -341,10 +374,67 @@ aside
     margin: 30px;
     padding: 0px;
     font-size: small;
-    border:1px solid blue;
     width: 350px;
     height:150px;
 }
+
+.act_grand
+{
+    width: 246px;
+   height: 350px; 
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   border-top-left-radius: 16px;
+   border-top-right-radius: 16px;
+}
+
+.act_moyen
+{
+    width: 348px;
+    height: 150px; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+.act_bas
+{
+    width: 348px;
+    height: 100px; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.act-1
+{
+    background-image: url('images/activites/4_small/port.jpg');
+}
+.act-2
+{
+    background-image: url('images/activites/4_small/fort.jpg');
+}
+.act-3
+{
+    background-image: url('images/activites/4_small/telescope.jpg');
+}
+.act-4
+{
+    background-image: url('images/activites/4_small/calanques.jpg');
+}
+.act-5
+{
+    background-image: url('images/activites/4_small/notre\ dame.jpg');
+}
+.act-6
+{
+    background-image: url('images/activites/4_small/parc.jpg');
+}
+
 
 
 footer
@@ -357,14 +447,23 @@ footer ul
     list-style: none;
     padding: 0%;
 }
-
-#descriptif
+footer li
 {
-    text-align:center;
-    padding-left: 0%;
+    margin: 5px;
+    
 }
-footer h3
+
+
+
+.descriptif
 {
     text-align: justify;
-    paddin
+    margin-right: 300px;
+    margin-bottom: px;
+}
+.qualité_souscription
+{
+    text-align: justify;
+    margin-right: 300px;
+    margin-left: 10px;
 }

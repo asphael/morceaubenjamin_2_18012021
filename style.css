@@ -10,10 +10,17 @@
 
  body 
 {
+    width: 1600px;
     font-family: 'ralewaythin' ;
-    margin: 100px;
-    text-align: justify
-
+    margin: 65px;
+    text-align: justify    
+}
+@media all and (max-width:700px)
+{
+    body
+    {
+        width: auto;
+    }
 }
 
 /*en tete*/
@@ -21,7 +28,7 @@ header
 
 #logo
 {
-    display: flex;
+    
     margin-bottom: 100px;
     
 }
@@ -47,7 +54,7 @@ nav ul
 {
     display: flex;
     list-style-type: none;
-    margin-left: 900px;
+    margin-left: 970px;
     padding-top: 25px;
 }
 nav li
@@ -75,10 +82,6 @@ nav a:hover
     margin-top: 5px;
     color: white;
 }
-
-
-
-
 
 #filtres 
 {
@@ -156,11 +159,13 @@ nav a:hover
 
 
 
+/*section Hotel*/
 .hebergements
 {
     background-color: #F2F2F2;
     border-radius: 16px;
-    margin-right: 100px;    
+    margin-right: 150px;
+    padding: 30px;    
 }
 h2
 {
@@ -218,6 +223,7 @@ p
 {
     font-style: bold;
     margin-left: 25px;
+    display: block;
 }
 
 
@@ -256,22 +262,34 @@ p
 
 
 
-
-.section
-{
-    display: flex;
-    flex-direction: row;
-}
+/*les plus populaires*/
 aside
 {
     background-color:#F2F2F2;
     border-radius: 16px;
-    padding-left: 50px;
-    height: 600px;
+    padding-left: 20px;
+    height: 550px;
+    
+}
+
+.titre_section
+{
+    display: flex;
+}
+.icone-pop
+{
+    padding-top: 15px;
+    padding-left: 150px;
+}
+.section
+{
+    display: flex;
+    
 }
 .populaires
 {
    margin-top: 50px;
+  
     
 }
 .pop
@@ -285,6 +303,7 @@ aside
     float: left;
     position: absolute;
     background-size: 150%;
+    padding-left: 10px;
     
 }
  .populaires ul
@@ -307,6 +326,7 @@ aside
     font-size: small;
     width: 370px;
     height: 100px;
+    
  }
  
  .populaires p
@@ -335,7 +355,6 @@ aside
      background-image: url('images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg');
  }
  
-
 
 
  /*activités*/

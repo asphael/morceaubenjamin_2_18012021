@@ -77,13 +77,23 @@ nav li:hover
         font-size:2.2em ;
 
     }
-    nav li
+    #navigation
     {
-        border: 1px solid black;
         
-        
+        padding-left: 120px;
+        padding-top:px ;
+        text-align: center;
     }
-    
+    #inscription
+    {
+        position: absolute;
+        border: 1px solid red;
+        margin-left: 550px;
+        margin-top: 0px;
+        padding-top: 0px;
+        padding-bottom: 60px;
+    }
+   
 }
 
 .title

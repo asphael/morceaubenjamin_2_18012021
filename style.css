@@ -60,12 +60,16 @@ nav li:hover
     color: #0065fc;
     border-top: 3px solid#0065fc; 
 }
-@media all and (max-device-width:480px)
+@media all and (max-device-width:375px)
 {
     body 
     {
-        width:600px;
-        margin:auto;
+        width: 375px;
+        margin-left:
+    }
+    h1
+    {
+        font-size: 1.7em;
     }
     nav
     {
@@ -74,31 +78,55 @@ nav li:hover
     nav ul
     {
         padding-left: 0;
-        font-size:2.2em ;
+        font-size:1.8em ;
+
+    }
+    nav li
+    {
+        border-bottom: 3px solid transparent;
+        padding-bottom: 20px;
+    }
+    nav li:hover
+    {
+        border-top: 3px solid transparent;
+        border-bottom: 3PX solid #0065fc;
+    }
+    #logo_titre
+    {
+        width: 250px;
+        height: 70px;
 
     }
     #navigation
     {
         
-        padding-left: 120px;
-        padding-top:px ;
+        width: 375px;
+        padding-top:-130px ;
         text-align: center;
-    }
+        margin-left:20px ;
+        font-size: large;
+    }   
     #inscription
     {
         position: absolute;
-        border: 1px solid red;
-        margin-left: 550px;
-        margin-top: 0px;
-        padding-top: 0px;
-        padding-bottom: 60px;
+        margin-left: 250px;
+        margin-top: -140px;
+        font-size: 0.7em;
     }
+
+    #inscription:hover
+    {
+        border-bottom:3px solid transparent ;
+        color: #0065fc;
+    }
+
    
 }
 
 .title
 {
     margin-top: 5px;
+    
     color: white;
 }
 
@@ -173,6 +201,22 @@ nav li:hover
     border-bottom-left-radius:6px;
     width: 30px;
     background-color: #F2F2F2;
+}
+@media all and (max-device-width:375px)
+{
+    .srch
+    {
+        width: 375px;
+    }
+    .champ
+    {
+        width: 260px;
+    }
+    .recherche
+    {
+        background-color: #0065fc;
+        width: 20px;
+    }
 }
 
 
@@ -279,8 +323,10 @@ p
     color: white;
 }
 
-@media all and (max-device-width:480px)
+@media all and (max-device-width:375px)
 {
+    aside
+    
     .section
     {
         flex-direction: column;
@@ -288,23 +334,25 @@ p
     }
     .images_hotel
     {
-        flex-wrap: nowrap;
+        
         flex-direction: column;
         background-color: white;
         border: unset;
+        padding-right: 25px;
     }
     .images_hotel>article
     {
-        height: 460px;
-        width: 600px;
+        height: 300px;
+        width: 270px;
         border: 1px solid #F2F2F2;
-        font-size: 1.2em;
+        font-size: 0.8em;
         background-color: white;
+        margin: 5px;
     }
     .img
     {
-        width: 600px;
-        height: 300px; 
+        width: 270px;
+        height: 200px; 
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -314,22 +362,26 @@ p
     .hebergements
     {
        background-color: white;
+       margin-left: 0px;
     }
 }
 
 /*les plus populaires*/
+
 aside
 {
     background-color:#F2F2F2;
     border-radius: 16px;
-    padding-left: 20px;
-    height: 550px;
+    padding: 20px;
+    height: 650px;
     
 }
+
 
 .titre_section
 {
     display: flex;
+    font-size: medium;
 }
 .icone-pop
 {
@@ -350,7 +402,7 @@ aside
 .pop
 {
     width: 140px;
-    height: 100px;     
+    height: 120px;     
     background-repeat: no-repeat;
     background-position: center;
     border-top-left-radius: 16px;
@@ -377,10 +429,10 @@ aside
     border-radius: 16px;
     background-color:white;
     margin-bottom: 50px;
-    margin-right: 20px;   
+     
     font-size: small;
-    width: 370px;
-    height: 100px;
+    width: 350px;
+    height: 120px;
     
  }
  
@@ -409,24 +461,29 @@ aside
  {
      background-image: url('images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg');
  }
- @media all and (max-device-width:480px)
+ @media all and (max-device-width:375px)
  {
+     .section
+     {
+         flex-direction: column-reverse;
+     }
      .populaires>article
      {
-         width: 600px;
-         height: 300px;
+         width: 320px;
+         height: 150px;
+         margin-bottom: 100px;
          
      }
      aside
      {
-         height: 1150px;
-         width: 600px;
-         margin-left: 50px;
+         height: 800px;
+         width: 370px;
+    
      }
      .pop
      {
-        width: 300px;
-        height: 300px;     
+        width: 140px;
+        height:150px;     
         background-repeat: no-repeat;
         background-position: center;
         border-top-left-radius: 16px;
@@ -438,26 +495,26 @@ aside
      }
      .populaires p
     {
-        margin-left: 350px;
+        margin-left: 180px;
         margin-right: 20px;
-        font-size: 2em;
+        font-size: 1em;
 
     }
     .populaires h3
     {
-     margin-left: 350px;
-     margin-right: 75px;
+     margin-left: 180px;
+     margin-right: 10px;
      padding-top: 10px;
-     font-size: 2.5em;
+     font-size: 1.2em;
     }
     .populaires ul
     {
     list-style-type: none;
     display: flex;
     padding-left: 0;
-    margin-left: 350px;
+    margin-left: 180px;
     padding-bottom: 0%;
-    font-size: 2em;
+    font-size: 1.2em;
     }
 
  }
@@ -479,7 +536,7 @@ aside
     padding: 0px;
     font-size: small;
     width: 250px;
-    height: 400px;
+    height: 350px;
 
 }
 .moyen
@@ -563,7 +620,7 @@ aside
     background-image: url('images/activites/4_small/parc.jpg');
 }
 
-@media all and (max-device-width:480px)
+@media all and (max-device-width:375px)
 {
     .activités h2
     {
@@ -573,60 +630,54 @@ aside
     .pptn
     {
         flex-direction: column;
-        margin-left: 30px;
+        width: 375px;
+        padding-left: 20px;
     }
 
     .grand
 {
-    box-shadow: 1px 1px 3px #F2F2F2 ;
-    border-radius: 16px;
-    background-color:white;
-    margin: 20px;
-    padding: 0px;
-    font-size: small;
-    width: 700px;
-    height: 400px;
-
+    height: 300px;
+    width: 270px;
+    border: 1px solid #F2F2F2;
+    font-size: 0.8em;
+    background-color: white;
+    margin: 5px;
 }
 .moyen
 {
-    box-shadow: 1px 1px 3px #F2F2F2 ;
-    border-radius: 16px;
-    background-color:white;
-    margin: 20px;
-    padding: 0px;
-    font-size: small;
-    width: 700px;
-    height: 400px;
-    
+    height: 300px;
+    width: 270px;
+    border: 1px solid #F2F2F2;
+    font-size: 0.8em;
+    background-color: white;
+    margin: 5px;
 }
 .bas
 {
-    box-shadow: 1px 1px 3px #F2F2F2 ;
-    border-radius: 16px;
-    background-color:white;
-    margin: 30px;
-    padding: 0px;
-    font-size: small;
-    width: 700px;
-    height:400px;
+    height: 300px;
+    width: 270px;
+    border: 1px solid #F2F2F2;
+    font-size: 0.8em;
+    background-color: white;
+    margin: 5px;
 }
 
 .act_grand
 {
-    width: 700px;
-   height: 340px; 
-   background-size: cover;
-   background-repeat: no-repeat;
-   background-position: center;
-   border-top-left-radius: 16px;
-   border-top-right-radius: 16px;
+    width: 270px;
+    height: 250px; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+ 
 }
 
 .act_moyen
 {
-    width: 700px;
-    height: 340px; 
+    width: 270px;
+    height: 250px; 
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -635,8 +686,8 @@ aside
 }
 .act_bas
 {
-    width: 700px;
-    height: 340px; 
+    width: 270px;
+    height: 250px; 
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -677,7 +728,23 @@ footer li
     footer
     {
         flex-direction: column;
-        font-size: 1.8em;
-        width: 800px;
+        font-size: 1.4em;
+        width: 410px;
+    }
+
+    .descriptif
+    {
+        margin-right: 10px;
+        text-align: center;
+    }
+    .qualité_souscription
+    {
+        margin-right: 10px;
+        text-align: center;
+    }
+    .assistance
+    {
+        margin-right: 10px;
+        text-align: center;
     }
 }

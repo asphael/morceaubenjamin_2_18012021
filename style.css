@@ -65,8 +65,10 @@ nav li:hover
     body 
     {
         width: 375px;
-        margin-left:
+        margin: 0px;
     }
+
+
     h1
     {
         font-size: 1.7em;
